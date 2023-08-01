@@ -1,0 +1,246 @@
+
+            @import url("https://fonts.googleapis.com/css?family=Montserrat:700");
+.hero {
+  background-color: #283349;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero__title {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  z-index: 1;
+}
+
+.cube {
+  position: absolute;
+  top: 80vh;
+  left: 45vw;
+  width: 10px;
+  height: 10px;
+  border: solid 1px blue;
+  transform-origin: top left;
+  transform: scale(0) rotate(0deg) translate(-50%, -50%);
+  -webkit-animation: cube 12s ease-in forwards infinite;
+          animation: cube 12s ease-in forwards infinite;
+}
+.cube:nth-child(2n) {
+  border-color: blue;
+}
+.cube:nth-child(2) {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  left: 25vw;
+  top: 40vh;
+}
+.cube:nth-child(3) {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+  left: 75vw;
+  top: 50vh;
+}
+.cube:nth-child(4) {
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+  left: 90vw;
+  top: 10vh;
+}
+.cube:nth-child(5) {
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+  left: 10vw;
+  top: 85vh;
+}
+.cube:nth-child(6) {
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
+  left: 50vw;
+  top: 10vh;
+}
+
+@-webkit-keyframes cube {
+  from {
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    opacity: 1;
+  }
+  to {
+    transform: scale(20) rotate(960deg) translate(-50%, -50%);
+    opacity: 0;
+  }
+}
+
+@keyframes cube {
+  from {
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    opacity: 1;
+  }
+  to {
+    transform: scale(20) rotate(960deg) translate(-50%, -50%);
+    opacity: 0;
+  }
+}
+@media(min-width:220px){
+    #head{
+        margin-left:70px ;
+    }
+    #leo{
+        margin-left:130px ;
+    }
+    .but{
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 30px;
+      border-width: 0;
+      margin-top: 15px;
+     margin-left: 150px;
+      padding: 10px 32px;
+      color: black;
+}
+
+
+.inputclz input[type="text"] {
+   
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid rgb(185, 180, 174);
+    border-radius: 4px;
+    border-color: #007bff;
+    margin-left: 118px;
+  }
+  .inputclz :optional{
+    padding: 5px;
+    font-size: 10px;
+    border: 1px solid rgb(185, 180, 174);
+    border-radius: 5px;
+    outline: none;
+   
+    border-color: #007bff;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Optional: Add some focus and hover styles */
+  .inputclz input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+  }
+  
+
+
+
+
+
+
+}
+@media(min-width:768px){
+    #head{
+        margin-left:320px ;
+    } #leo{
+        margin-left:390px ;
+    }
+    .but{
+        background-color: rgb(185, 180, 174);
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 30px;
+        border-width: 0;
+        margin-top: 15px;
+       margin-left: 400px;
+        padding: 10px 32px;
+        color: black;
+}
+.inputclz input[type="text"] {
+   
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid rgb(185, 180, 174);
+    border-radius: 4px;
+    border-color: #007bff;
+    margin-left:370px;
+  }
+  .inputclz :optional{
+    padding: 5px;
+    font-size: 10px;
+    border: 1px solid rgb(185, 180, 174);
+    border-radius: 5px;
+    outline: none;
+   
+    border-color: #007bff;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Optional: Add some focus and hover styles */
+  .inputclz input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+  }
+  
+
+
+
+
+
+
+
+
+
+}
+@media(min-width:1200px){
+    #head{
+        margin-left:600px ;
+        font-weight: bold;
+    } #leo{
+        margin-left:670px ;
+    }
+    .but{
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 30px;
+        border-width: 0;
+        margin-top: 15px;
+       margin-left: 680px;
+        padding: 10px 32px;
+        color: black;
+}
+.inputclz input[type="text"] {
+   
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid rgb(185, 180, 174);
+    border-radius: 4px;
+    border-color: #007bff;
+    margin-left:650px;
+  }
+  .inputclz :optional{
+    padding: 5px;
+    font-size: 10px;
+    border: 1px solid rgb(185, 180, 174);
+    border-radius: 5px;
+    outline: none;
+   
+    border-color: #007bff;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Optional: Add some focus and hover styles */
+  .inputclz input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+  }
+
+  
+  /* Style the label for the input */
+  
+  
+  /* Style the input element */
+  
+  
+  }
